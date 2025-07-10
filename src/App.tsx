@@ -20,16 +20,8 @@ function App({}: AppProps) {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <div>
-        <h1>Aplikasi Counter</h1>
-        <p>Nilai saat ini:</p>
+      <h1>Aplikasi Counter (TS Version)</h1>
+      <p>Nilai saat ini:</p>
 
         <h2 className="counter-value">{count}</h2>
         <div className="button-group">
